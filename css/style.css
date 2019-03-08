@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+}
+
+header h1 {
+    padding: 5em;
+    text-align: center;
+    background-image: url(../imagens/banner-carvalho.jpg);
+    color: white;
+    align-content: center;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto_habilidades{
+    display: inline-block;  
+    vertical-align: top;
+    text-align: center;
+}
+
+.imagem {
+    margin-right: 40%;
+    padding: 2em;
+}
+
+.teste {
+    display: flex;
+    position: relative;
+    right:-30px ;
+    padding: 1em;
+}
+.teste_2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -40px;
+    padding: 1em;
+}
+.imagens{
+  
+    display: block;
+    justify-content: space-around;
+    padding: 1em;
+
+}
+.texto_projetos{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+.testesao{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 150%;
+}
+.barra{
+   width: 15px; ;
+   height: 500px;
+   background-color: black; 
+    position: relative;
+    left: -40px ;
+}
+.texto_quem_sou{
+    font-size: 150%;
+    text-align: center;
+    justify-content: center;
+    color: blue;
+}
+#foto_carvalho{
+    border-radius: 50%;
+}
+.barra_2{
+    width: 1520px;
+    height: 15px;
+    background-color: black;
+    position:center;
+    flex-wrap: wrap;
+}
+.rodape{
+    background-color: black;
+    color: white;
+    font-size: 150%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+#quem_sou{
+    justify-content:space-between;
+}
+@media (max-width: 400px) {
+    
+}
+.nome{
+    font-size: 280%;
+    
+}

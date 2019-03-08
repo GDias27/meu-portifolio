@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Página do Carvalho</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (min-width: 0px)" href="small.css">
+    <link rel="stylesheet" media="screen and (min-width: 1000px)" href="medium.css">
+    <link rel="stylesheet" media="screen and (min-width: 1350px)"  href="large.css">
+</head>
+
+<body>
+    <header>
+        <section class="nome">
+            <h1>Gustavo Carvalho</h1>
+        </section>
+        <section class="habilidades e Outros Projetos">
+            <div class="testesao">
+                <div class="teste">
+                    <div class="texto_habilidades">
+                        <h2>Habilidades:</h2>
+                        <ul>
+                            <li>Photoshop</li>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>C#</li>
+                            <li>Cloud</li>
+                            <li>SQL</li>
+                            <li>React</li>
+                            <li>React Native</li>
+                            <li>UX</li>
+                            <li>Scrum</li>
+                            <li>Front End</li>
+                            <li>Back End</li>
+                        </ul>
+                    </div>
+                    <div class="imagem">
+                        <img src="imagens/html-css.png" width="450" alt="logos-css-html">
+                    </div>
+                </div>
+                <div class="barra"></div>
+                <div class="teste_2">
+                    <div class="texto_projetos">
+                        <h2>Outros Projetos:</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            <br />
+                            Cumque placeat, praesentium molestias ipsam ab et, aliquid nisi
+                            <br />
+                            nulla quia explicabo necessitatibus commodi aspernatur pariatur
+                            <br />
+                            ipsum hic,dolorum possimus porro. At!</p>
+                    </div>
+                    <div class="imagens">
+                        <img src="imagens/wire-frame-1.png" width="200" alt="wire-frame-1">
+                        <img src="imagens/wire-frame-2.png" width="200" alt="wire-frame-2">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="barra_2"></div>
+        <section id="quem_sou">
+            <div class="teste 3">
+                <img src="imagens/carvalho-feio.jpg" id="foto_carvalho" width="400" height="400" alt="foto-do-carvalho">
+                <div class="texto_quem_sou">
+                    <h2>Quem sou:</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur <br/>, adipisicing elit. Porro veniam iusto quam cum,<br/> neque
+                        sint optio cupiditate quo in nemo <br/>quod nostrum? Et, blanditiis! Tempore nostrum <br/>inventore ipsa
+                        excepturi beatae? <br/> Lorem ipsum dolor, sit amet consectetur<br/> adipisicing elit. Corrupti sunt eius voluptates<br/> amet exercitationem nemo itaque, doloribus ipsam <br/> perferendis ut, totam aperiam asperiores quo fuga odio <br/> aliquam unde labore consectetur? </p>
+                </div>
+                <img src="imagens/foto-senai.jpg" width="350" height="500" alt="foto-senai">
+            </div>
+        </section>
+        <footer class="rodape">
+            <p>Gustavo Carvalho </p>
+            <p>Contate-me:4002-8922</p>
+            <p>Redes Sociais:blablabla</p>        
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(function(){
+                var nav = $(".habilidades");
+                var botao = $(".habilidades");
+
+                botao.on("click", function(){
+                    nav.toggleClass("active");
+                });
+
+            });
+        </script>
+    </header>
+</body>
+
+</html>
